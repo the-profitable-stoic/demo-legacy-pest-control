@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Legacy Pest Control",
+    "phone": "555-pes-r94",
+    "category": "pest-control",
+    "city": "Tampa",
+    "state": "FL"
+  },
+  "design": {
+    "preset": {
+      "id": "pest-control-heritage-craft",
+      "categoryGroup": "pest-control",
+      "name": "Heritage Craft",
+      "recipeFile": "pest-control/heritage-craft.astro",
+      "colors": {
+        "primary": "#4A6B3A",
+        "primaryDark": "#2c4023",
+        "primaryLight": "#c0cbba",
+        "secondary": "#3f5b31",
+        "accent": "#4A6B3A",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#3f5b31",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "pest-control/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Trusted Pest Control for Tampa Bay Homes",
+      "heroSubline": "Family-owned pest solutions since 2012. Serving Tampa's unique climate with customized treatments for historic bungalows and waterfront properties.",
+      "aboutTitle": "Our Tampa Pest Control Story",
+      "aboutText": [
+        "Founded in 2012 after seeing how Tampa's humid climate creates year-round pest challenges, Legacy Pest Control brings specialized knowledge of local ant species, palmetto bugs, and termite risks specific to our region.",
+        "We use EPA-approved treatments adapted for Florida's porous limestone foundations and hurricane-resistant construction methods that pests exploit differently than in other states.",
+        "Every technician completes 100+ hours of training on Tampa Bay area pest behaviors, from South Tampa's historic districts to Wesley Chapel's new developments."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Solutions",
+          "description": "Protocols specifically designed for Florida's humidity, afternoon storms, and salt air corrosion"
+        },
+        {
+          "title": "Home-Type Specialists",
+          "description": "Different approaches for 1920s bungalows vs. modern condos based on construction vulnerabilities"
+        },
+        {
+          "title": "Hurricane Season Prep",
+          "description": "Specialized pest exclusion before storm season when insects seek shelter"
+        },
+        {
+          "title": "Local Behavior Knowledge",
+          "description": "Understand unique patterns of Tampa's termite swarms and palmetto bug movements"
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Inspection Today",
+      "ctaSubline": "Same-day service available for urgent infestations in Tampa Bay area neighborhoods"
+    },
+    "services": [
+      {
+        "slug": "termite-inspection-treatment",
+        "name": "Termite Inspection & Treatment",
+        "shortDescription": "Comprehensive protection against Tampa's aggressive subterranean termite colonies",
+        "description": "Tampa's warm, moist soil creates ideal conditions for subterranean termites that can compromise homes within months. Our inspection includes:\n\n1) Foundation perimeter probing for mud tubes\n2) Attic and crawl space moisture readings\n3) Identification of high-risk areas like pool decks or AC drip lines\n\nTreatment options include non-invasive bait stations for historic district homes or soil barriers for newer constructions. We monitor activity patterns specific to Tampa neighborhoods - termites swarm earlier here than inland Florida due to our microclimate.\n\nAnnual retreatments recommended before June when reproductive termites emerge after spring rains.",
+        "process": [
+          "Step 1: 90-point inspection of interior/exterior",
+          "Step 2: Custom treatment plan presentation",
+          "Step 3: EPA-approved liquid or bait application",
+          "Step 4: 12-month activity monitoring"
+        ],
+        "benefits": [
+          "Protects against $5,000+ in average termite damage",
+          "Specialized knowledge of Tampa termite subspecies",
+          "Adapted for pier-and-beam vs slab foundations",
+          "Prevents swarmers entering through older window screens"
+        ],
+        "faq": [
+          {
+            "question": "How often should Tampa homes be inspected?",
+            "answer": "Annual inspections are critical - our humid climate allows termites to remain active year-round unlike northern states where they go dormant."
+          },
+          {
+            "question": "Do I need treatment if I don't see termites?",
+            "answer": "Yes - by the time visible signs appear, colonies may have been damaging structural wood for 2+ years. Our moisture meters detect hidden activity."
+          }
+        ]
+      },
+      {
+        "slug": "palmetto-bug-control",
+        "name": "Palmetto Bug Control",
+        "shortDescription": "Targeted elimination of Florida's persistent roach species",
+        "description": "Tampa's palmetto bugs (American cockroaches) thrive in our storm drains, palm trees, and older plumbing systems. Unlike generic roach treatments, our approach:\n\n- Uses IGR (insect growth regulator) formulas that break reproduction cycles\n- Focuses on entry points like attic vents and pipe penetrations\n- Includes exterior perimeter sprays timed before summer rains\n\nWe treat differently for downtown high-rises (focusing on elevator shafts) vs. Seminole Heights bungalows (addressing pier foundations). Monthly maintenance plans available for restaurants and multi-family properties near water.\n\nSpecial attention given to pool equipment areas and AC condensation lines where these pests congregate.",
+        "process": [
+          "Step 1: Identify species and nesting areas",
+          "Step 2: Interior gel bait application",
+          "Step 3: Exterior barrier treatment",
+          "Step 4: Follow-up in 14 days"
+        ],
+        "benefits": [
+          "Reduces populations by 80-90% in first treatment",
+          "Child/pet safe formulations",
+          "Prevents infestation spread between attached homes",
+          "Addresses odor-causing pheromones"
+        ],
+        "faq": [
+          {
+            "question": "Why do I see more palmetto bugs after spraying?",
+            "answer": "This is normal - treatments flush pests from hiding. Our follow-up visits ensure the colony is eliminated within 2 weeks."
+          },
+          {
+            "question": "Are they dangerous?",
+            "answer": "While not aggressive, they can trigger asthma and contaminate food. Their shed skins accumulate in older home insulation."
+          }
+        ]
+      },
+      {
+        "slug": "rodent-exclusion",
+        "name": "Rodent Exclusion",
+        "shortDescription": "Complete rodent proofing for Tampa's older homes",
+        "description": "Hurricane retrofit upgrades and aged soffits in Tampa's historic districts create perfect rodent entry points. Our exclusion process:\n\n1) Infrared inspection to locate heat signatures of nests\n2) Custom steel wool/copper mesh solutions for each entry point\n3) Attic restoration with enzyme cleaners to remove pheromone trails\n\nWe specialize in challenges like:\n- Rat runs along Bayshore Boulevard seawalls\n- Squirrels in Victorian gingerbread trim\n- Mice in 1970s ranch home crawl spaces\n\nAll work includes warranty-backed exclusion repairs and follow-up monitoring before winter when rodents seek shelter.",
+        "process": [
+          "Step 1: Full property inspection with thermal imaging",
+          "Step 2: Identification of all potential entry points",
+          "Step 3: Physical exclusion installation",
+          "Step 4: Sanitation and monitoring"
+        ],
+        "benefits": [
+          "Prevents electrical wire damage",
+          "Reduces allergy triggers from droppings",
+          "Protects stored holiday decorations",
+          "Eliminates attic noises keeping families awake"
+        ],
+        "faq": [
+          {
+            "question": "How long does exclusion last?",
+            "answer": "Our materials withstand 10+ years of Florida weather - we warranty all work for 3 years against rodent re-entry."
+          },
+          {
+            "question": "Do you remove existing rodents?",
+            "answer": "Yes - we use humane traps followed by exclusion to prevent new ones entering. Never poisons that could harm local owls."
+          }
+        ]
+      },
+      {
+        "slug": "mosquito-misting-systems",
+        "name": "Mosquito Misting Systems",
+        "shortDescription": "Automated protection for Tampa's backyard living spaces",
+        "description": "Tampa's daily summer rains create standing water where mosquitoes breed. Our misting systems:\n\n- Use timed micro-sprays of natural pyrethrum\n- Cover typical Florida room and lanai areas\n- Include larvicide treatments for bromeliads and gutters\n\nCustom designed for:\n- Waterfront properties along the Hillsborough River\n- Historic homes with mature landscaping\n- New construction with outdoor kitchens\n\nSystems automatically increase spray frequency before dusk when mosquitoes are most active. We service before and after hurricane season when storms disrupt breeding patterns.",
+        "process": [
+          "Step 1: Property assessment and zone mapping",
+          "Step 2: Nozzle placement planning",
+          "Step 3: Professional installation",
+          "Step 4: Seasonal maintenance"
+        ],
+        "benefits": [
+          "85-90% reduction in mosquito populations",
+          "Quieter than fogging treatments",
+          "Protects pets from heartworm risks",
+          "Increases usable outdoor living space"
+        ],
+        "faq": [
+          {
+            "question": "How often do systems need refilling?",
+            "answer": "Most Tampa homes require biweekly refills during rainy season (June-September), tapering to monthly in cooler months."
+          },
+          {
+            "question": "Will it harm my butterflies?",
+            "answer": "No - we position nozzles away from flowering plants and use formulas that break down quickly, sparing pollinators."
+          }
+        ]
+      },
+      {
+        "slug": "bed-bug-treatment",
+        "name": "Bed Bug Treatment",
+        "shortDescription": "Discreet, thorough elimination for homes and rentals",
+        "description": "Tampa's tourism industry and transient population make bed bugs a recurring challenge. Our heat treatment:\n\n- Raises room temperatures to 120°F for 4-6 hours\n- Penetrates deep into mattress seams and baseboards\n- Includes follow-up monitoring for 60 days\n\nWe treat all life stages without harsh chemicals, making it ideal for:\n- Downtown condo buildings\n- Vacation rental properties\n- Senior living facilities\n\nSpecial protocols for historic homes where pests hide in plaster cracks and hardwood floor gaps. Hotel-quality results without disruptive tenting.",
+        "process": [
+          "Step 1: Canine inspection to locate all infestations",
+          "Step 2: Heat treatment with industrial heaters",
+          "Step 3: Targeted pesticide application in cracks",
+          "Step 4: Post-treatment monitoring"
+        ],
+        "benefits": [
+          "Single-day treatment completion",
+          "No need to discard furniture",
+          "Eliminates eggs that sprays miss",
+          "Discreet unmarked vehicles"
+        ],
+        "faq": [
+          {
+            "question": "How do I prepare for treatment?",
+            "answer": "We provide a detailed checklist - mainly removing heat-sensitive items and laundering bedding. No need to vacate for days like with fumigation."
+          },
+          {
+            "question": "Are recurrences common?",
+            "answer": "With our 60-day monitoring, we catch any survivors before they reproduce. Most Tampa cases are resolved in one treatment."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria S.",
+        "rating": 5,
+        "service": "Termite Inspection & Treatment",
+        "text": "Caught termites early in our Seminole Heights bungalow thanks to their thorough inspection. They explained exactly how the colony was entering through our original 1930s pier blocks. Treatment preserved our historic home without damage.",
+        "date": "2024-03-15"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Palmetto Bug Control",
+        "text": "Our downtown condo had a persistent palmetto bug problem from the building's old plumbing. Legacy used gel baits in strategic spots that finally broke the cycle. Haven't seen one in months despite summer rains.",
+        "date": "2024-06-22"
+      },
+      {
+        "name": "Lisa W.",
+        "rating": 5,
+        "service": "Rodent Exclusion",
+        "text": "After years of hearing squirrels in our Hyde Park attic, Legacy sealed every entry point with copper mesh. The technician even showed me thermal images of nests we couldn't see. Peaceful sleep at last!",
+        "date": "2024-01-10"
+      },
+      {
+        "name": "Robert P.",
+        "rating": 5,
+        "service": "Mosquito Misting Systems",
+        "text": "Game changer for our backyard on the Alafia River. The system runs automatically at dawn/dusk when bugs are worst. Our summer barbecues are actually enjoyable now - worth every penny.",
+        "date": "2024-05-30"
+      },
+      {
+        "name": "Diane K.",
+        "rating": 5,
+        "service": "Bed Bug Treatment",
+        "text": "Suspect we picked up bed bugs from a Tampa hotel. Legacy's heat treatment solved it in one day - no lingering chemical smells. Their follow-up inspections gave us real peace of mind.",
+        "date": "2024-02-18"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Termite Inspection & Treatment",
+        "text": "As a new Florida homeowner, I didn't realize how quickly termites work here. Legacy found damage under our pool deck we never would've noticed. Their warranty means we're protected long-term.",
+        "date": "2024-04-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Tampa Pest Control | Termite & Bug Specialists",
+        "description": "Local pest solutions for Tampa Bay homes since 2012. Specializing in termites, palmetto bugs, and rodents unique to Florida's climate."
+      },
+      "about": {
+        "title": "About Our Tampa Pest Control Company",
+        "description": "Learn why Tampa homeowners trust our locally-adapted pest treatments since 2012. Serving historic districts to new developments."
+      },
+      "services": {
+        "title": "Tampa Pest Control Services | Detailed Solutions",
+        "description": "Custom pest treatments designed for Tampa's humidity, housing styles, and seasonal pest behaviors. Free inspections."
+      },
+      "contact": {
+        "title": "Contact Tampa's Pest Control Experts",
+        "description": "Schedule same-day pest control in Tampa Bay. Call or message for immediate help with termites, rodents, or mosquitoes."
+      },
+      "reviews": {
+        "title": "Tampa Pest Control Reviews | Real Customer Stories",
+        "description": "Read why Tampa Bay residents recommend Legacy Pest Control for effective, lasting pest solutions in local homes."
+      },
+      "service-areas": {
+        "title": "Tampa Pest Control Service Areas | Local Coverage",
+        "description": "Serving Tampa neighborhoods and surrounding communities with specialized pest treatments adapted to each area's needs."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "St. Petersburg",
+        "slug": "st-petersburg-fl",
+        "state": "FL",
+        "content": "Legacy Pest Control proudly serves St. Petersburg, FL, a vibrant city with a rich architectural history. Many homes here date back to the 1920s-50s, featuring charming Florida cottage styles that can be prone to pest infestations due to aging structures and gaps. Our team specializes in protecting these historic homes from common Florida pests like termites, palmetto bugs, and rodents. With hot, humid summers creating ideal breeding conditions for pests, regular inspections and treatments are essential to keep your home pest-free year-round.",
+        "localContext": "St. Petersburg is known for its historic Florida cottage homes and a warm, humid climate that attracts pests.",
+        "nearbyAreas": [
+          "Tierra Verde",
+          "Kenneth City",
+          "Gulfport"
+        ]
+      },
+      {
+        "city": "Clearwater",
+        "slug": "clearwater-fl",
+        "state": "FL",
+        "content": "Clearwater, FL, is home to many 1960s-70s ranch-style homes, which often have crawl spaces and attics that pests love to invade. Legacy Pest Control understands the unique challenges these properties face, from ants and spiders to termites seeking moisture in the humid climate. Our tailored pest control solutions help safeguard your home against seasonal infestations, ensuring your family enjoys a comfortable living environment. With Clearwater's hot summers and frequent rain, proactive pest management is key to preventing costly damage.",
+        "localContext": "Clearwater features mid-century ranch homes and a coastal climate that fosters pest activity.",
+        "nearbyAreas": [
+          "Belleair",
+          "Largo",
+          "Dunedin"
+        ]
+      },
+      {
+        "city": "Brandon",
+        "slug": "brandon-fl",
+        "state": "FL",
+        "content": "Brandon, FL, is a bustling suburban community with homes primarily built in the 1980s-90s. These properties often have lush landscaping and irrigation systems, which can attract pests like mosquitoes, roaches, and rodents. Legacy Pest Control provides comprehensive pest management services tailored to Brandon's humid climate and suburban lifestyle. Whether you're dealing with fire ants in your yard or termites in your foundation, our team delivers effective solutions to keep your home protected.",
+        "localContext": "Brandon's suburban developments and humid summers create ideal conditions for pests to thrive.",
+        "nearbyAreas": [
+          "Valrico",
+          "Riverview",
+          "Seffner"
+        ]
+      },
+      {
+        "city": "Wesley Chapel",
+        "slug": "wesley-chapel-fl",
+        "state": "FL",
+        "content": "Wesley Chapel, FL, is a rapidly growing area with modern master-planned communities built in the 2000s-2020s. While newer homes are less prone to structural pest issues, they still face challenges like invasive ants, spiders, and wildlife attracted to green spaces. Legacy Pest Control offers eco-friendly pest control solutions to protect Wesley Chapel's pristine neighborhoods. Our preventative treatments are designed to address the unique needs of newer constructions while maintaining the area's aesthetic appeal.",
+        "localContext": "Wesley Chapel's newer homes and planned communities require specialized pest control approaches.",
+        "nearbyAreas": [
+          "Land O' Lakes",
+          "Lutz",
+          "Zephyrhills"
+        ]
+      },
+      {
+        "city": "Tampa",
+        "slug": "tampa-fl",
+        "state": "FL",
+        "content": "As Tampa's trusted pest control provider, Legacy Pest Control serves homes and businesses across this bustling city. Tampa's diverse architecture, from historic bungalows to high-rise condos, faces unique pest challenges due to the hot, humid climate. We specialize in combating common Florida pests like termites, roaches, and mosquitoes, ensuring your property stays safe and comfortable. Our localized treatments are tailored to Tampa's urban and suburban environments, providing year-round protection.",
+        "localContext": "Tampa's mix of historic and modern properties requires adaptable pest control solutions.",
+        "nearbyAreas": [
+          "Westchase",
+          "Carrollwood",
+          "Town 'n' Country"
+        ]
+      },
+      {
+        "city": "Largo",
+        "slug": "largo-fl",
+        "state": "FL",
+        "content": "Largo, FL, is a mid-sized city with a mix of older and newer homes, all vulnerable to Florida's persistent pests. Legacy Pest Control helps residents combat ants, termites, and rodents that thrive in Largo's humid subtropical climate. Whether your home is a vintage gem or a modern build, our team provides customized treatments to address seasonal pest pressures. Regular maintenance is crucial in Largo, where warm weather allows pests to remain active year-round.",
+        "localContext": "Largo's diverse housing stock and warm climate make pest control a necessity.",
+        "nearbyAreas": [
+          "Seminole",
+          "Pinellas Park",
+          "Belleair Bluffs"
+        ]
+      },
+      {
+        "city": "Riverview",
+        "slug": "riverview-fl",
+        "state": "FL",
+        "content": "Riverview, FL, is a family-friendly suburb with newer developments surrounded by natural preserves. While the area's beauty is unmatched, it also attracts pests like mosquitoes, rodents, and wildlife. Legacy Pest Control offers targeted solutions to keep Riverview homes pest-free without harming the local ecosystem. Our services are especially vital during the rainy season, when pests seek shelter in homes. Trust us to protect your property with safe, effective treatments.",
+        "localContext": "Riverview's proximity to nature increases the risk of pest infestations.",
+        "nearbyAreas": [
+          "Gibsonton",
+          "Apollo Beach",
+          "Lithia"
+        ]
+      },
+      {
+        "city": "Land O' Lakes",
+        "slug": "land-o-lakes-fl",
+        "state": "FL",
+        "content": "Land O' Lakes, FL, is known for its scenic lakes and sprawling properties, which can be hotspots for pests like termites, ants, and wildlife. Legacy Pest Control provides specialized services for this unique area, addressing both residential and outdoor pest concerns. With humid summers and abundant water sources, Land O' Lakes requires vigilant pest management to prevent infestations. Our team is experienced in handling the area's specific challenges, from fire ant mounds to rodent invasions.",
+        "localContext": "Land O' Lakes' natural beauty comes with increased pest activity.",
+        "nearbyAreas": [
+          "Wesley Chapel",
+          "Lutz",
+          "Odessa"
+        ]
+      },
+      {
+        "city": "Pinellas Park",
+        "slug": "pinellas-park-fl",
+        "state": "FL",
+        "content": "Pinellas Park, FL, is a lively community with a mix of residential and commercial properties, all susceptible to Florida's pest population. Legacy Pest Control helps homeowners and businesses defend against roaches, bed bugs, and rodents that thrive in the area's warm, moist environment. Our tailored treatments are designed for Pinellas Park's urban setting, ensuring long-lasting protection. Regular service is key to staying ahead of the pests that flourish in this climate.",
+        "localContext": "Pinellas Park's urban density and humidity create prime conditions for pests.",
+        "nearbyAreas": [
+          "St. Petersburg",
+          "Largo",
+          "Kenneth City"
+        ]
+      },
+      {
+        "city": "Valrico",
+        "slug": "valrico-fl",
+        "state": "FL",
+        "content": "Valrico, FL, is a charming suburb with tree-lined streets and spacious properties, but these features also attract pests like termites, ants, and mosquitoes. Legacy Pest Control specializes in protecting Valrico homes with customized treatments that account for the area's lush landscaping and humid climate. Whether you're dealing with a sudden infestation or need preventative care, our team delivers reliable solutions. Valrico's warm weather demands year-round pest vigilance, and we're here to help.",
+        "localContext": "Valrico's green spaces and humidity make pest control a top priority.",
+        "nearbyAreas": [
+          "Brandon",
+          "Lithia",
+          "Seffner"
+        ]
+      },
+      {
+        "city": "Lutz",
+        "slug": "lutz-fl",
+        "state": "FL",
+        "content": "Lutz, FL, is a semi-rural community with large lots and natural surroundings, which can invite pests like rodents, mosquitoes, and wildlife. Legacy Pest Control offers specialized services for Lutz properties, addressing both indoor and outdoor pest concerns. The area's hot, humid summers create ideal conditions for pests to multiply, making regular treatments essential. Our eco-friendly solutions ensure your home stays protected while preserving Lutz's natural charm.",
+        "localContext": "Lutz's rural character and climate contribute to persistent pest challenges.",
+        "nearbyAreas": [
+          "Land O' Lakes",
+          "Wesley Chapel",
+          "Odessa"
+        ]
+      },
+      {
+        "city": "Apollo Beach",
+        "slug": "apollo-beach-fl",
+        "state": "FL",
+        "content": "Apollo Beach, FL, is a coastal community where salt air and humidity combine to create unique pest control challenges. Legacy Pest Control helps residents combat salt-tolerant pests like termites and palmetto bugs, as well as mosquitoes attracted to waterfront properties. Our treatments are designed to withstand Apollo Beach's harsh environment while keeping your home safe. With year-round pest activity, proactive measures are crucial to maintaining a pest-free home.",
+        "localContext": "Apollo Beach's coastal location demands specialized pest control strategies.",
+        "nearbyAreas": [
+          "Riverview",
+          "Gibsonton",
+          "Sun City Center"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "termite-inspection-treatment": "/images/service-termite-inspection-treatment.webp",
+      "palmetto-bug-control": "/images/service-palmetto-bug-control.webp",
+      "rodent-exclusion": "/images/service-rodent-exclusion.webp",
+      "mosquito-misting-systems": "/images/service-mosquito-misting-systems.webp",
+      "bed-bug-treatment": "/images/service-bed-bug-treatment.webp"
+    },
+    "servicesResponsive": {
+      "termite-inspection-treatment": {
+        "src": "/images/service-termite-inspection-treatment.webp",
+        "srcset": "/images/service-termite-inspection-treatment-400w.webp 400w, /images/service-termite-inspection-treatment-800w.webp 800w, /images/service-termite-inspection-treatment-1200w.webp 1200w, /images/service-termite-inspection-treatment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "palmetto-bug-control": {
+        "src": "/images/service-palmetto-bug-control.webp",
+        "srcset": "/images/service-palmetto-bug-control-400w.webp 400w, /images/service-palmetto-bug-control-800w.webp 800w, /images/service-palmetto-bug-control-1200w.webp 1200w, /images/service-palmetto-bug-control.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "rodent-exclusion": {
+        "src": "/images/service-rodent-exclusion.webp",
+        "srcset": "/images/service-rodent-exclusion-400w.webp 400w, /images/service-rodent-exclusion-800w.webp 800w, /images/service-rodent-exclusion-1200w.webp 1200w, /images/service-rodent-exclusion.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "mosquito-misting-systems": {
+        "src": "/images/service-mosquito-misting-systems.webp",
+        "srcset": "/images/service-mosquito-misting-systems-400w.webp 400w, /images/service-mosquito-misting-systems-800w.webp 800w, /images/service-mosquito-misting-systems-1200w.webp 1200w, /images/service-mosquito-misting-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bed-bug-treatment": {
+        "src": "/images/service-bed-bug-treatment.webp",
+        "srcset": "/images/service-bed-bug-treatment-400w.webp 400w, /images/service-bed-bug-treatment-800w.webp 800w, /images/service-bed-bug-treatment-1200w.webp 1200w, /images/service-bed-bug-treatment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
